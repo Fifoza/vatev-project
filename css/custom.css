@@ -1,0 +1,374 @@
+body {
+  font-family: "Lato", sans-serif;
+  font: 15px;
+  background: white;
+}
+
+body #head {
+  color: black;
+  background-color: wheat;
+  height: 20rem;
+}
+
+body .sidenav {
+  padding: 25px;
+  height: 100%;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  top: 319px;
+  left: 0;
+  bottom: 0;
+  background-color: #0e1026;
+  overflow-x: hidden;
+  height: 54.6rem;
+}
+
+body .sidenav a,
+body .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+body .sidenav a:hover,
+body .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+body .main {
+  height: 800px;
+  margin-left: 200px;
+  /* Same as the width of the sidenav */
+  font-size: 20px;
+  /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+body .active {
+  background-color: green;
+  color: white;
+}
+
+body .dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+body .fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+@media screen and (max-height: 450px) {
+  body .sidenav {
+    padding-top: 15px;
+  }
+  body .sidenav a {
+    font-size: 18px;
+  }
+}
+
+body #contactForm {
+  margin-left: 20rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+  background: #0CF;
+}
+
+body .container {
+  max-width: 70rem;
+  margin: 0 auto;
+  position: relative;
+  padding: 3rem;
+}
+
+body #contact input[type="text"],
+body #contact input[type="email"],
+body #contact input[type="tel"],
+body #contact input[type="url"],
+body #contact textarea,
+body #contact button[type="submit"] {
+  font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+body #contact {
+  background: #F9F9F9;
+  padding: 5px;
+  margin-left: -165px;
+  width: 20rem;
+}
+
+body #contact h3 {
+  color: #F96;
+  display: block;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+body fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+body #contact input[type="text"],
+body #contact input[type="email"],
+body #contact input[type="tel"],
+body #contact input[type="url"],
+body #contact textarea {
+  width: 100%;
+  border: 1px solid #CCC;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+body #contact input[type="text"]:hover,
+body #contact input[type="email"]:hover,
+body #contact input[type="tel"]:hover,
+body #contact input[type="url"]:hover,
+body #contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #AAA;
+}
+
+body #contact textarea {
+  height: 80px;
+  max-width: 100%;
+  resize: none;
+}
+
+body #contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #0CF;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 9px;
+  font-size: 14px;
+}
+
+body #contact button[type="submit"]:hover {
+  background: #09C;
+  -webkit-transition: background 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+body #contact button[type="submit"]:active {
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+body #contact input:focus,
+body #contact textarea:focus {
+  outline: 0;
+  border: 1px solid #999;
+}
+
+body ::-webkit-input-placeholder {
+  color: #888;
+}
+
+body :-moz-placeholder {
+  color: #888;
+}
+
+body ::-moz-placeholder {
+  color: #888;
+}
+
+body :-ms-input-placeholder {
+  color: #888;
+}
+
+body #footer {
+  height: 22rem;
+  bottom: 0;
+  width: 100%;
+  background-color: darkslategrey;
+  color: white;
+  text-align: center;
+}
+
+body #map {
+  padding: 3rem;
+}
+
+body .pos-f-t {
+  margin-left: 12rem;
+}
+
+body .col {
+  height: 180px;
+}
+
+body .dropbtn {
+  background-color: lightgrey;
+  color: black;
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+}
+
+body .dropdown:hover .dropbtn {
+  background-color: lightgray;
+}
+
+body .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+body .dropdown-content {
+  display: none;
+  position: absolute;
+  margin-left: 0;
+  background-color: #f1f1f1;
+  min-width: 1280px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+body .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+body .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+body .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body .dropdown:hover .dropbtn {
+  background-color: lightgrey;
+}
+
+body #nav {
+  background: lightgray;
+  height: 73px;
+  margin-left: 12rem;
+}
+
+body #nav .container {
+  padding: unset;
+}
+
+body #nav li {
+  margin: 0 15px;
+  margin-top: 0px;
+  margin-right: 15px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+}
+
+body #first {
+  left: -4rem;
+  bottom: -29rem;
+}
+
+body #second {
+  left: -19rem;
+  bottom: -29rem;
+}
+
+body #third {
+  left: -33rem;
+  bottom: -29rem;
+}
+
+body #fourt {
+  left: -48rem;
+  bottom: -29rem;
+}
+
+body #fifth {
+  left: -67rem;
+  bottom: -29rem;
+}
+
+body form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  margin-top: 10px;
+}
+
+body form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+body form.example button:hover {
+  background: #0b7dda;
+}
+
+body form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body #main {
+  height: 50rem;
+}
+
+body .dropdown:hover:after {
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-top: solid darkgrey 10px;
+  bottom: -22px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -13px;
+  position: absolute;
+  width: 0;
+}
+/*# sourceMappingURL=custom.css.map */
